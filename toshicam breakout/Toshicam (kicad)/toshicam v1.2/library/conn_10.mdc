@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  Sun 13 Feb 2011 19:35:04 ART
+#
+$MODULE P2
+Li P2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE P2_9
+Li P2_9
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+$EndMODULE
+#
+$EndLIBDOC

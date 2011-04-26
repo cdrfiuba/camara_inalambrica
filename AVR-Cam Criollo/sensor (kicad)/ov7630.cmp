@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 15/5/2010-01:06:07
+
+BeginCmp
+TimeStamp = /4BEDD576;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD58E;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD595;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD70F;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD394;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD38F;
+Reference = C6;
+ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD6DC;
+Reference = C7;
+ValeurCmp = 100uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD6FF;
+Reference = C8;
+ValeurCmp = 100uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD10E;
+Reference = C9;
+ValeurCmp = 12p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD4C1;
+Reference = C10;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD6E3;
+Reference = C11;
+ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD6F3;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD101;
+Reference = C13;
+ValeurCmp = 12p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD71F;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD72B;
+Reference = C15;
+ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDE30F;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDDB56;
+Reference = P1;
+ValeurCmp = CONN_10X2;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD7F3;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD75F;
+Reference = R2;
+ValeurCmp = 10;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD0F3;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD03E;
+Reference = U1;
+ValeurCmp = OV7630;
+IdModule  = -LCC-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDD0DC;
+Reference = X1;
+ValeurCmp = 27MHz;
+IdModule  = HC-18UV;
+EndCmp
+
+EndListe

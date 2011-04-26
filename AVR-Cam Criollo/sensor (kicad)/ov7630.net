@@ -1,0 +1,348 @@
+# EESchema Netlist Version 1.1 created  21/6/2010-03:33:31
+(
+ ( 4C1C0032 $noname  U1 OV7630 {Lib=OV7630}
+  (    1 AGND )
+  (    2 AVDD_1 )
+  (    3 N-000009 )
+  (    4 VTO_1 )
+  (    5 PWDN_1 )
+  (    6 N-000008 )
+  (    7 N-000007 )
+  (    8 N-000006 )
+  (    9 VSYNC_1 )
+  (   10 HREF_1 )
+  (   11 PCLK_1 )
+  (   12 DVDD_1 )
+  (   13 N-000028 )
+  (   14 N-000027 )
+  (   15 RST_1 )
+  (   16 DGND )
+  (   17 DGND )
+  (   18 Y7_1 )
+  (   19 Y6_1 )
+  (   20 Y5_1 )
+  (   21 Y4_1 )
+  (   22 Y3_1 )
+  (   23 Y2_1 )
+  (   24 Y1_1 )
+  (   25 Y0_1 )
+  (   26 SCL_1 )
+  (   27 SDA_1 )
+  (   28 AGND )
+ )
+ ( 4BEDDB56 $noname  P1 CONN_10X2 {Lib=CONN_10X2}
+  (    1 VCC_1 )
+  (    2 SDA_1 )
+  (    3 AGND )
+  (    4 SCL_1 )
+  (    5 VTO_1 )
+  (    6 Y0_1 )
+  (    7 PWDN_1 )
+  (    8 Y1_1 )
+  (    9 VSYNC_1 )
+  (   10 Y2_1 )
+  (   11 HREF_1 )
+  (   12 Y3_1 )
+  (   13 PCLK_1 )
+  (   14 Y4_1 )
+  (   15 EXCLK_1 )
+  (   16 Y5_1 )
+  (   17 RST_1 )
+  (   18 Y6_1 )
+  (   19 DGND )
+  (   20 Y7_1 )
+ )
+ ( 4BEDE30F $noname  JP1 JUMPER {Lib=JUMPER}
+  (    1 N-000028 )
+  (    2 EXCLK_1 )
+ )
+ ( 4BEDD7F3 $noname  R1 10 {Lib=R}
+  (    1 DVDD_1 )
+  (    2 VCC_1 )
+ )
+ ( 4BEDD75F $noname  R2 10 {Lib=R}
+  (    1 AVDD_1 )
+  (    2 VCC_1 )
+ )
+ ( 4BEDD72B $noname  C15 0.01uF {Lib=C}
+  (    1 AVDD_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD71F $noname  C14 0.1uF {Lib=C}
+  (    1 AVDD_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD70F $noname  C4 0.1uF {Lib=C}
+  (    1 VCC_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD6FF $noname  C8 100uF {Lib=C}
+  (    1 AVDD_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD6F3 $noname  C12 0.1uF {Lib=C}
+  (    1 AVDD_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD6E3 $noname  C11 0.01uF {Lib=C}
+  (    1 DVDD_1 )
+  (    2 AGND )
+ )
+ ( 4BEDD6DC $noname  C7 100uF {Lib=C}
+  (    1 AGND )
+  (    2 DVDD_1 )
+ )
+ ( 4BEDD595 $noname  C3 1uF {Lib=C}
+  (    1 N-000006 )
+  (    2 AGND )
+ )
+ ( 4BEDD58E $noname  C2 0.1uF {Lib=C}
+  (    1 N-000007 )
+  (    2 AGND )
+ )
+ ( 4BEDD576 $noname  C1 0.1uF {Lib=C}
+  (    1 N-000008 )
+  (    2 AGND )
+ )
+ ( 4BEDD4C1 $noname  C10 10uF {Lib=C}
+  (    1 AGND )
+  (    2 N-000009 )
+ )
+ ( 4BEDD394 $noname  C5 0.1uF {Lib=C}
+  (    1 DVDD_1 )
+  (    2 DGND )
+ )
+ ( 4BEDD38F $noname  C6 0.01uF {Lib=C}
+  (    1 DVDD_1 )
+  (    2 DGND )
+ )
+ ( 4BEDD10E $noname  C9 12p {Lib=C}
+  (    1 N-000028 )
+  (    2 DGND )
+ )
+ ( 4BEDD101 $noname  C13 12p {Lib=C}
+  (    1 N-000027 )
+  (    2 DGND )
+ )
+ ( 4BEDD0F3 $noname  R3 1M {Lib=R}
+  (    1 N-000027 )
+  (    2 N-000028 )
+ )
+ ( 4BEDD0DC $noname  X1 27MHz {Lib=CRYSTAL}
+  (    1 N-000028 )
+  (    2 N-000027 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "PCLK_1"
+ U1 11
+ P1 13
+Net 2 "EXCLK_1"
+ P1 15
+ JP1 2
+Net 3 "VSYNC_1"
+ U1 9
+ P1 9
+Net 4 "VTO_1"
+ U1 4
+ P1 5
+Net 5 "VCC_1"
+ P1 1
+ R1 2
+ R2 2
+ C4 1
+Net 6 ""
+ U1 8
+ C3 1
+Net 7 ""
+ U1 7
+ C2 1
+Net 8 ""
+ U1 6
+ C1 1
+Net 9 ""
+ U1 3
+ C10 2
+Net 10 "PWDN_1"
+ U1 5
+ P1 7
+Net 11 "HREF_1"
+ U1 10
+ P1 11
+Net 12 "RST_1"
+ U1 15
+ P1 17
+Net 13 "AVDD_1"
+ U1 2
+ R2 1
+ C15 1
+ C14 1
+ C8 1
+ C12 1
+Net 14 "DGND"
+ U1 16
+ U1 17
+ P1 19
+ C5 2
+ C6 2
+ C9 2
+ C13 2
+Net 15 "Y7_1"
+ U1 18
+ P1 20
+Net 16 "Y6_1"
+ U1 19
+ P1 18
+Net 17 "Y5_1"
+ U1 20
+ P1 16
+Net 18 "Y4_1"
+ U1 21
+ P1 14
+Net 19 "Y3_1"
+ U1 22
+ P1 12
+Net 20 "Y2_1"
+ U1 23
+ P1 10
+Net 21 "Y1_1"
+ U1 24
+ P1 8
+Net 22 "Y0_1"
+ U1 25
+ P1 6
+Net 23 "SCL_1"
+ U1 26
+ P1 4
+Net 24 "SDA_1"
+ U1 27
+ P1 2
+Net 25 "AGND"
+ U1 1
+ U1 28
+ P1 3
+ C15 2
+ C14 2
+ C4 2
+ C8 2
+ C12 2
+ C11 2
+ C7 1
+ C3 2
+ C2 2
+ C1 2
+ C10 1
+Net 26 "DVDD_1"
+ U1 12
+ R1 1
+ C11 1
+ C7 2
+ C5 1
+ C6 1
+Net 27 ""
+ U1 14
+ C13 1
+ R3 1
+ X1 2
+Net 28 ""
+ U1 13
+ JP1 1
+ C9 1
+ R3 2
+ X1 1
+}
+#End

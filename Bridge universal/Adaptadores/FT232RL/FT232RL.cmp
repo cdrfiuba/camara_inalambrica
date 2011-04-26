@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Sun 24 Oct 2010 04:05:29 PM ART
+
+BeginCmp
+TimeStamp = /4CC47058;
+Reference = FT2321;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CC47075;
+Reference = P1;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CC4707D;
+Reference = P2;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14;
+EndCmp
+
+EndListe

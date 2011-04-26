@@ -1,0 +1,15 @@
+EESchema (20090216-final)  >> Creation date: Sun 24 Oct 2010 03:03:54 PM ART
+
+#Cmp ( order = Reference )
+| FT2321     FT232RL     
+| P1         CONN_14     
+| P2         CONN_14     
+#End Cmp
+
+#Cmp ( order = Value )
+| CONN_14      P1        
+| CONN_14      P2        
+| FT232RL      FT2321    
+#End Cmp
+
+#End List

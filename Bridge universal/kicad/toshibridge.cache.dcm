@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0  Fri 15 Apr 2011 21:53:23 ART
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library
