@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 25 Apr 2011 13:48:49 ART
+EESchema Schematic File Version 2  date Wed 27 Apr 2011 02:07:39 ART
 LIBS:power
 LIBS:ATXMEGA-A4-QFN
 LIBS:device
@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "25 apr 2011"
+Date "27 apr 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 7850 6500 2    60   ~ 0
+TX_1
+Text Label 7850 6300 2    60   ~ 0
+RX_1
+$Comp
+L CONN_2 P?
+U 1 1 4DB7A406
+P 8200 6400
+F 0 "P?" V 8150 6400 40  0000 C CNN
+F 1 "CONN_2" V 8250 6400 40  0000 C CNN
+	1    8200 6400
+	1    0    0    -1  
+$EndComp
 Connection ~ 7850 5700
 Wire Wire Line
 	7450 5700 8150 5700
@@ -357,8 +370,6 @@ Text Label 10200 4250 3    60   ~ 0
 PCLK_AVR
 Text Label 9600 4250 0    60   ~ 0
 DCLK_TOSHI
-Text Label 7000 3850 2    60   ~ 0
-T1
 Text Label 8200 4850 3    60   ~ 0
 RX_1
 Text Label 8300 4850 3    60   ~ 0
