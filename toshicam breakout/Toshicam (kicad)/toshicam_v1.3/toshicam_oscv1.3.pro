@@ -1,5 +1,7 @@
-update=Sun 08 May 2011 18:04:48 ART
+update=Thu 12 May 2011 18:45:37 ART
 last_client=pcbnew
+[general]
+version=1
 [pcbnew]
 version=1
 PadDrlX=0
@@ -17,7 +19,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=59
-LastNetListRead=toshicam_v1.2_osc.net
+LastNetListRead=toshicam_v1.3_osc.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
