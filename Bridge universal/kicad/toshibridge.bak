@@ -1,43 +1,11 @@
-EESchema Schematic File Version 2  date Mon 25 Apr 2011 13:48:49 ART
-LIBS:power
-LIBS:ATXMEGA-A4-QFN
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:tcm8240
-LIBS:toshibridge-cache
-EELAYER 25  0
+EESchema Schematic File Version 2  date Tue 17 May 2011 10:28:08 ART
+LIBS:power,/home/shokman/Documentos/Electronica/Club de robotica/Webcam pry/Toshiba cam/Bridge/kicad/lib/ATXMEGA-A4-QFN,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./toshibridge.cache
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "25 apr 2011"
+Date "27 apr 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 7850 6500 2    60   ~ 0
+TX_1
+Text Label 7850 6300 2    60   ~ 0
+RX_1
+$Comp
+L CONN_2 P?
+U 1 1 4DB7A406
+P 8200 6400
+F 0 "P?" V 8150 6400 40  0000 C CNN
+F 1 "CONN_2" V 8250 6400 40  0000 C CNN
+	1    8200 6400
+	1    0    0    -1  
+$EndComp
 Connection ~ 7850 5700
 Wire Wire Line
 	7450 5700 8150 5700
@@ -357,8 +338,6 @@ Text Label 10200 4250 3    60   ~ 0
 PCLK_AVR
 Text Label 9600 4250 0    60   ~ 0
 DCLK_TOSHI
-Text Label 7000 3850 2    60   ~ 0
-T1
 Text Label 8200 4850 3    60   ~ 0
 RX_1
 Text Label 8300 4850 3    60   ~ 0
@@ -399,7 +378,7 @@ L R R?
 U 1 1 4DB59FF4
 P 5350 5500
 F 0 "R?" V 5430 5500 50  0000 C CNN
-F 1 "R" V 5350 5500 50  0000 C CNN
+F 1 "270" V 5350 5500 50  0000 C CNN
 	1    5350 5500
 	1    0    0    -1  
 $EndComp
@@ -408,7 +387,7 @@ L R R?
 U 1 1 4DB59FE3
 P 5050 5500
 F 0 "R?" V 5130 5500 50  0000 C CNN
-F 1 "R" V 5050 5500 50  0000 C CNN
+F 1 "270" V 5050 5500 50  0000 C CNN
 	1    5050 5500
 	1    0    0    -1  
 $EndComp
@@ -468,7 +447,7 @@ L C C?
 U 1 1 4DB59DA1
 P 2600 6650
 F 0 "C?" H 2650 6750 50  0000 L CNN
-F 1 "C" H 2650 6550 50  0000 L CNN
+F 1 "100nF" H 2650 6550 50  0000 L CNN
 	1    2600 6650
 	1    0    0    -1  
 $EndComp
