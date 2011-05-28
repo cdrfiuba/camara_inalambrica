@@ -1,134 +1,109 @@
-# EESchema Netlist Version 1.1 created  Tue 24 May 2011 02:34:12 ART
+# EESchema Netlist Version 1.1 created  Sat 28 May 2011 16:22:39 ART
 (
- ( /4D4240F9 SM1206 C1 0.1uF
-  ( 1 /2.8V )
-  ( 2 GND )
+ ( /4DCC47BD $noname  C8 0.01uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4D4242F0 SM1206 C2 1uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4D425F90 $noname  U3 OSCILLATOR {Lib=OSCILLATOR}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /CLK )
+  (    4 VCC )
  )
- ( /4D4240E5 SM1206 C3 0.1uF
-  ( 1 GND )
-  ( 2 /1.8V )
+ ( /4D425B35 $noname  P1 CONN_9 {Lib=CONN_9}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /DCLK )
+  (    4 /D7 )
+  (    5 /D6 )
+  (    6 /D5 )
+  (    7 /D4 )
+  (    8 /D3 )
+  (    9 /D2 )
  )
- ( /4D4242E8 SM1206 C4 1uF
-  ( 1 /2.8V )
-  ( 2 GND )
+ ( /4D425B30 $noname  P2 CONN_9 {Lib=CONN_9}
+  (    1 GND )
+  (    2 /VBLK )
+  (    3 /HBLK )
+  (    4 /ST )
+  (    5 /SDA )
+  (    6 /SCL )
+  (    7 /RST )
+  (    8 /D1 )
+  (    9 /D0 )
  )
- ( /4D4240EE SM1206 C5 0.1uF
-  ( 1 /2.8V )
-  ( 2 GND )
+ ( /4D425965 $noname  U2 TLV0015 {Lib=TLV0025}
+  (    1 VCC )
+  (    2 ? )
+  (    3 VCC )
+  (    4 /1.5V )
+  (    5 GND )
  )
- ( /4D425963 SM1206 C6 1uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4D425964 $noname  C7 1uF {Lib=C}
+  (    1 /1.5V )
+  (    2 GND )
  )
- ( /4D425964 SM1206 C7 1uF
-  ( 1 /1.8V )
-  ( 2 GND )
+ ( /4D425963 $noname  C6 1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4DCC47BD SM1206 C8 0.01uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4D4242F0 $noname  C2 1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4D42378F SparkFun-TCM8240MD_Mod Cam1 TCM8240
-  ( 1 /D3 )
-  ( 2 /D2 )
-  ( 3 /D1 )
-  ( 4 /D0 )
-  ( 5 GND )
-  ( 6 /2.8V )
-  ( 7 /RST )
-  ( 8 /SCL )
-  ( 9 GND )
-  ( 10 /SDA )
-  ( 11 GND )
-  ( 12 /1.8V )
-  ( 13 /CLK )
-  ( 14 /ST )
-  ( 15 /HBLK )
-  ( 16 /VBLK )
-  ( 17 GND )
-  ( 18 /2.8V )
-  ( 19 /DCLK )
-  ( 20 GND )
-  ( 21 /D7 )
-  ( 22 /D6 )
-  ( 23 /D5 )
-  ( 24 /D4 )
+ ( /4D4242E8 $noname  C4 1uF {Lib=C}
+  (    1 /2.8V )
+  (    2 GND )
  )
- ( /4D425B35 P2_9 P1 CONN_9
-  ( 1 VCC )
-  ( 2 GND )
-  ( 3 /DCLK )
-  ( 4 /D7 )
-  ( 5 /D6 )
-  ( 6 /D5 )
-  ( 7 /D4 )
-  ( 8 /D3 )
-  ( 9 /D2 )
+ ( /4D4240F9 $noname  C1 0.1uF {Lib=C}
+  (    1 /2.8V )
+  (    2 GND )
  )
- ( /4D425B30 P2_9 P2 CONN_9
-  ( 1 GND )
-  ( 2 /VBLK )
-  ( 3 /HBLK )
-  ( 4 /ST )
-  ( 5 /SDA )
-  ( 6 /SCL )
-  ( 7 /RST )
-  ( 8 /D1 )
-  ( 9 /D0 )
+ ( /4D4240EE $noname  C5 0.1uF {Lib=C}
+  (    1 /2.8V )
+  (    2 GND )
  )
- ( /4D423C1A SOT23-5 U1 TLV0025
-  ( 1 VCC )
-  ( 2 ? )
-  ( 3 VCC )
-  ( 4 /2.8V )
-  ( 5 GND )
+ ( /4D4240E5 $noname  C3 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 /1.5V )
  )
- ( /4D425965 SOT23-5 U2 TLV0015
-  ( 1 VCC )
-  ( 2 ? )
-  ( 3 VCC )
-  ( 4 /1.8V )
-  ( 5 GND )
+ ( /4D423C1A $noname  U1 TLV0025 {Lib=TLV0025}
+  (    1 VCC )
+  (    2 ? )
+  (    3 VCC )
+  (    4 /2.8V )
+  (    5 GND )
  )
- ( /4D425F90 F240 U3 OSCILLATOR
-  ( 1 VCC )
-  ( 2 GND )
-  ( 3 /CLK )
-  ( 4 VCC )
+ ( /4D42378F $noname  Cam1 TCM8240 {Lib=TCM8240}
+  (    1 /D3 )
+  (    2 /D2 )
+  (    3 /D1 )
+  (    4 /D0 )
+  (    5 GND )
+  (    6 /2.8V )
+  (    7 /RST )
+  (    8 /SCL )
+  (    9 GND )
+  (   10 /SDA )
+  (   11 GND )
+  (   12 /1.5V )
+  (   13 /CLK )
+  (   14 /ST )
+  (   15 /HBLK )
+  (   16 /VBLK )
+  (   17 GND )
+  (   18 /2.8V )
+  (   19 /DCLK )
+  (   20 GND )
+  (   21 /D7 )
+  (   22 /D6 )
+  (   23 /D5 )
+  (   24 /D4 )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
+$component C8
  SM*
  C?
  C1-1
@@ -138,10 +113,128 @@ $component C7
  C?
  C1-1
 $endlist
-$component C8
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
  SM*
  C?
  C1-1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "/2.8V" "2.8V"
+ Cam1 18
+ Cam1 6
+ C5 1
+ C1 1
+ U1 4
+ C4 1
+Net 3 "VCC" "VCC"
+ C2 1
+ C6 1
+ U1 3
+ U1 1
+ P1 1
+ U3 1
+ U3 4
+ U2 1
+ U2 3
+ C8 1
+Net 5 "/RST" "RST"
+ P2 7
+ Cam1 7
+Net 6 "/SCL" "SCL"
+ Cam1 8
+ P2 6
+Net 7 "/SDA" "SDA"
+ P2 5
+ Cam1 10
+Net 8 "/1.5V" "1.5V"
+ C3 2
+ U2 4
+ C7 1
+ Cam1 12
+Net 9 "/CLK" "CLK"
+ U3 3
+ Cam1 13
+Net 10 "/ST" "ST"
+ P2 4
+ Cam1 14
+Net 11 "/HBLK" "HBLK"
+ Cam1 15
+ P2 3
+Net 12 "/VBLK" "VBLK"
+ P2 2
+ Cam1 16
+Net 13 "/D0" "D0"
+ P2 9
+ Cam1 4
+Net 14 "/D1" "D1"
+ P2 8
+ Cam1 3
+Net 15 "/D2" "D2"
+ P1 9
+ Cam1 2
+Net 16 "/D3" "D3"
+ P1 8
+ Cam1 1
+Net 17 "/D4" "D4"
+ P1 7
+ Cam1 24
+Net 18 "/D5" "D5"
+ P1 6
+ Cam1 23
+Net 19 "/D6" "D6"
+ P1 5
+ Cam1 22
+Net 20 "/D7" "D7"
+ Cam1 21
+ P1 4
+Net 21 "/DCLK" "DCLK"
+ P1 3
+ Cam1 19
+Net 22 "GND" "GND"
+ P2 1
+ U3 2
+ P1 2
+ C8 2
+ C2 2
+ C4 2
+ C1 2
+ C5 2
+ C3 1
+ Cam1 17
+ U2 5
+ C7 2
+ C6 2
+ U1 5
+ Cam1 5
+ Cam1 9
+ Cam1 20
+ Cam1 11
+}
+#End

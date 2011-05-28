@@ -1,11 +1,41 @@
-EESchema Schematic File Version 2  date Thu 12 May 2011 18:58:36 ART
-LIBS:power,/home/shokman/Documentos/Electronica/Club de robotica/Webcam pry/camarainalambrica/toshicam breakout/Toshicam (kicad)/toshicam_v1.3/library/tlv0025,/home/shokman/Documentos/Electronica/Club de robotica/Webcam pry/camarainalambrica/toshicam breakout/Toshicam (kicad)/toshicam_v1.3/library/tcm8240,/home/shokman/Documentos/Electronica/Club de robotica/Webcam pry/camarainalambrica/toshicam breakout/Toshicam (kicad)/toshicam_v1.3/library/oscillator,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EESchema Schematic File Version 2  date Sat 28 May 2011 16:22:21 ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:toshicam_v1.3_osc-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "12 may 2011"
+Date "28 may 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -283,7 +313,7 @@ F 1 "GND" H 5600 5480 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6500 4800 0    60   ~ 0
-1.8V
+1.5V
 $Comp
 L VCC #PWR05
 U 1 1 4D425961
@@ -401,7 +431,7 @@ SCL
 Text Label 3150 1950 0    60   ~ 0
 RST
 Text Label 2400 1950 2    60   ~ 0
-1.8V
+1.5V
 Text Label 3700 2500 0    60   ~ 0
 2.8V
 Text Label 1850 3250 2    60   ~ 0
