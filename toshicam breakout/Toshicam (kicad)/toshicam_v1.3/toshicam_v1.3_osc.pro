@@ -1,12 +1,17 @@
-update=Mon 30 May 2011 06:10:52 PM ART
+update=Fri 10 Jun 2011 21:47:32 ART
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=709
-PadDimV=630
+PadDimH=630
+PadDimV=551
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -36,3 +41,4 @@ LibName11=/media/FILES/Descargas/kicad files/SparkFun
 LibName12=library/conn_10
 LibName13=library/oscillator
 LibName14=library/tcm8240
+LibName15=library/kyocera_oscillator

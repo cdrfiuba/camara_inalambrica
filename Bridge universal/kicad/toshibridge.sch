@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 20 May 2011 01:48:41 ART
+EESchema Schematic File Version 2  date Fri 03 Jun 2011 17:51:46 ART
 LIBS:power
 LIBS:ATXMEGA-A4-QFN
 LIBS:device
@@ -32,12 +32,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:tcm8240
 LIBS:toshibridge-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "20 may 2011"
+Date "3 jun 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,22 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 7850 6500 2    60   ~ 0
-TX_1
-Text Label 7850 6300 2    60   ~ 0
-RX_1
-$Comp
-L CONN_2 P4
-U 1 1 4DB7A406
-P 8200 6400
-F 0 "P4" V 8150 6400 40  0000 C CNN
-F 1 "CONN_2" V 8250 6400 40  0000 C CNN
-	1    8200 6400
-	1    0    0    -1  
-$EndComp
-Connection ~ 7850 5700
 Wire Wire Line
-	7450 5700 8150 5700
+	7850 5700 7850 5750
+Connection ~ 7850 6250
+Wire Wire Line
+	8150 6250 7550 6250
+Connection ~ 7850 5700
 Wire Wire Line
 	8000 4850 8000 5300
 Wire Wire Line
@@ -318,13 +308,48 @@ Wire Wire Line
 	8100 4850 8100 5300
 Wire Wire Line
 	8100 5300 8150 5300
+Wire Wire Line
+	7550 6250 7550 6050
+Wire Wire Line
+	8150 5750 8150 5700
+$Comp
+L R R?
+U 1 1 4DE948DC
+P 8150 6000
+F 0 "R?" V 8230 6000 50  0000 C CNN
+F 1 "270" V 8150 6000 50  0000 C CNN
+	1    8150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4DE948D7
+P 7850 6000
+F 0 "R?" V 7930 6000 50  0000 C CNN
+F 1 "270" V 7850 6000 50  0000 C CNN
+	1    7850 6000
+	1    0    0    -1  
+$EndComp
+Text Label 7900 6900 2    60   ~ 0
+TX_1
+Text Label 7900 6700 2    60   ~ 0
+RX_1
+$Comp
+L CONN_2 P4
+U 1 1 4DB7A406
+P 8250 6800
+F 0 "P4" V 8200 6800 40  0000 C CNN
+F 1 "CONN_2" V 8300 6800 40  0000 C CNN
+	1    8250 6800
+	1    0    0    -1  
+$EndComp
 $Comp
 L +3.3V #PWR01
 U 1 1 4DB5A5D8
-P 7450 5700
-F 0 "#PWR01" H 7450 5660 30  0001 C CNN
-F 1 "+3.3V" H 7450 5810 30  0000 C CNN
-	1    7450 5700
+P 7550 6050
+F 0 "#PWR01" H 7550 6010 30  0001 C CNN
+F 1 "+3.3V" H 7550 6160 30  0000 C CNN
+	1    7550 6050
 	1    0    0    -1  
 $EndComp
 $Comp
