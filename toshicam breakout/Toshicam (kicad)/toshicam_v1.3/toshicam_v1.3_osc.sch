@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 28 May 2011 16:22:21 ART
+EESchema Schematic File Version 2  date Sun 12 Jun 2011 13:36:42 ART
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:toshicam_v1.3_osc-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "28 may 2011"
+Date "12 jun 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -479,9 +479,9 @@ F 1 "GND" H 5150 2930 30  0001 C CNN
 	1    5150 3000
 	1    0    0    -1  
 $EndComp
-Text Label 6250 2800 2    60   ~ 0
-D0
 Text Label 6250 2700 2    60   ~ 0
+D0
+Text Label 6250 2800 2    60   ~ 0
 D1
 Text Label 5050 2800 2    60   ~ 0
 D2
