@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPCB (2010-12-06 BZR 2371)-stable date = Tue 24 May 2011 02:34:12 ART
+
+BeginCmp
+TimeStamp = /4D4240F9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4242F0;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4240E5;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4242E8;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4240EE;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425963;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425964;
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCC47BD;
+Reference = C8;
+ValeurCmp = 0.01uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D42378F;
+Reference = Cam1;
+ValeurCmp = TCM8240;
+IdModule  = SparkFun-TCM8240MD_Mod;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425B35;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = P2_9;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425B30;
+Reference = P2;
+ValeurCmp = CONN_9;
+IdModule  = P2_9;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D423C1A;
+Reference = U1;
+ValeurCmp = TLV0025;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425965;
+Reference = U2;
+ValeurCmp = TLV0015;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425F90;
+Reference = U3;
+ValeurCmp = OSCILLATOR;
+IdModule  = F240;
+EndCmp
+
+EndListe
