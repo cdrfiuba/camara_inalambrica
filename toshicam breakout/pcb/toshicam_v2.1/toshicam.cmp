@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = vie 20 ene 2012 21:31:48 ART
+
+BeginCmp
+TimeStamp = /4D4240F9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4242F0;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4240E5;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4242E8;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SM1812L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4240EE;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425963;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425964;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = SM1812L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCC47BD;
+Reference = C8;
+ValeurCmp = 0.01uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F19E5B7;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F19EB0C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_SMD_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F19EF1A;
+Reference = K2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_SMD_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425B35;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425B30;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F19E5A4;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D42378F;
+Reference = U1;
+ValeurCmp = TCM8240;
+IdModule  = TCM8240MD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F1899C2;
+Reference = U2;
+ValeurCmp = TPS76328;
+IdModule  = SOT23-5-ALT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F1899BB;
+Reference = U3;
+ValeurCmp = TPS76316;
+IdModule  = SOT23-5-ALT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D425F90;
+Reference = U4;
+ValeurCmp = OSCILLATOR;
+IdModule  = KC5032C;
+EndCmp
+
+EndListe
