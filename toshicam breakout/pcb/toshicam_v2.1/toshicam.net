@@ -1,21 +1,21 @@
-# EESchema Netlist Version 1.1 created  vie 20 ene 2012 21:34:33 ART
+# EESchema Netlist Version 1.1 created  lun 23 ene 2012 18:54:23 ART
 (
  ( /4F19EF1A $noname  K2 CONN_2 {Lib=CONN_2}
   (    1 /CLK )
-  (    2 N-000005 )
+  (    2 N-000018 )
  )
  ( /4F19EB0C $noname  K1 CONN_3 {Lib=CONN_3}
   (    1 GND )
-  (    2 N-000003 )
+  (    2 N-000026 )
   (    3 /EN )
  )
  ( /4F19E5B7 $noname  D1 LED {Lib=LED}
-  (    1 N-000026 )
+  (    1 N-000019 )
   (    2 GND )
  )
  ( /4F19E5A4 $noname  R2 100 {Lib=R}
   (    1 /2.8V )
-  (    2 N-000026 )
+  (    2 N-000019 )
  )
  ( /4D425964 $noname  C7 10uF {Lib=C}
   (    1 /1.6V )
@@ -40,7 +40,7 @@
   (    2 VCC )
  )
  ( /4D425F90 $noname  U4 OSCILLATOR {Lib=OSCILLATOR}
-  (    1 N-000003 )
+  (    1 N-000026 )
   (    2 GND )
   (    3 /CLK )
   (    4 VCC )
@@ -57,16 +57,17 @@
   (    9 /D6 )
   (   10 /D7 )
  )
- ( /4D425B30 $noname  P2 CONN_10 {Lib=CONN_9}
-  (    1 /EN )
-  (    2 /RST )
-  (    3 /SCL )
-  (    4 /SDA )
-  (    5 N-000005 )
-  (    6 /ST )
-  (    7 /HBLK )
-  (    8 /VBLK )
-  (    9 /DCLK )
+ ( /4D425B30 $noname  P2 CONN_10 {Lib=CONN_10}
+  (    1 /RST )
+  (    2 /SCL )
+  (    3 /SDA )
+  (    4 /EN )
+  (    5 VCC )
+  (    6 N-000018 )
+  (    7 /ST )
+  (    8 /HBLK )
+  (    9 /VBLK )
+  (   10 /DCLK )
  )
  ( /4D425963 $noname  C6 0.1uF {Lib=C}
   (    1 VCC )
@@ -179,109 +180,110 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "GND" "GND"
- U1 17
- U1 11
- U1 20
- U1 9
- U1 5
- C6 2
- C8 1
- U3 2
- U2 2
- C7 2
- C3 1
- C5 2
- C1 2
- C4 2
- C2 2
- D1 2
- P1 2
- U4 2
- K1 1
-Net 2 "/2.8V" "2.8V"
- U1 18
- R2 1
- C5 1
- C1 1
- U1 6
- C4 1
- U2 5
-Net 3 "" ""
- K1 2
- U4 1
-Net 4 "/CLK" "CLK"
+Net 1 "/CLK" "CLK"
  U4 3
  K2 1
  U1 13
-Net 5 "" ""
- P2 5
- K2 2
-Net 6 "/D1" "D1"
- U1 3
- P1 4
-Net 7 "/D0" "D0"
- P1 3
- U1 4
-Net 8 "/RST" "RST"
- P2 2
- U1 7
-Net 9 "/SCL" "SCL"
- P2 3
- U1 8
-Net 10 "/SDA" "SDA"
- P2 4
- U1 10
-Net 11 "/1.6V" "1.6V"
- C3 2
- U1 12
- U3 5
- C7 1
-Net 12 "/ST" "ST"
- U1 14
- P2 6
-Net 13 "/HBLK" "HBLK"
- P2 7
- U1 15
-Net 14 "/VBLK" "VBLK"
- U1 16
- P2 8
-Net 15 "/D2" "D2"
+Net 2 "/D2" "D2"
  P1 5
  U1 2
-Net 16 "/D3" "D3"
- P1 6
- U1 1
-Net 17 "/D4" "D4"
- U1 24
- P1 7
-Net 18 "/D5" "D5"
- U1 23
- P1 8
-Net 19 "/D6" "D6"
- P1 9
- U1 22
-Net 20 "/D7" "D7"
- P1 10
- U1 21
-Net 21 "/DCLK" "DCLK"
+Net 3 "/D1" "D1"
+ P1 4
+ U1 3
+Net 4 "/D0" "D0"
+ P1 3
+ U1 4
+Net 5 "/RST" "RST"
+ U1 7
+ P2 1
+Net 6 "/SCL" "SCL"
+ P2 2
+ U1 8
+Net 7 "/SDA" "SDA"
+ P2 3
+ U1 10
+Net 8 "/ST" "ST"
+ P2 7
+ U1 14
+Net 9 "/HBLK" "HBLK"
+ P2 8
+ U1 15
+Net 10 "/VBLK" "VBLK"
+ U1 16
  P2 9
+Net 11 "/1.6V" "1.6V"
+ U1 12
+ C3 2
+ C7 1
+ U3 5
+Net 12 "/D3" "D3"
+ U1 1
+ P1 6
+Net 13 "/D4" "D4"
+ P1 7
+ U1 24
+Net 14 "/D5" "D5"
+ P1 8
+ U1 23
+Net 15 "/D6" "D6"
+ U1 22
+ P1 9
+Net 16 "/D7" "D7"
+ U1 21
+ P1 10
+Net 17 "/DCLK" "DCLK"
  U1 19
-Net 24 "VCC" "VCC"
+ P2 10
+Net 18 "" ""
+ K2 2
+ P2 6
+Net 19 "" ""
+ R2 2
+ D1 1
+Net 20 "VCC" "VCC"
  C2 1
+ C8 2
+ U3 1
+ U2 1
  U4 4
  P1 1
+ P2 5
  C6 1
- C8 2
- U2 1
- U3 1
+Net 23 "/2.8V" "2.8V"
+ R2 1
+ U2 5
+ U1 18
+ C4 1
+ U1 6
+ C1 1
+ C5 1
+Net 24 "GND" "GND"
+ C8 1
+ U3 2
+ U2 2
+ U4 2
+ P1 2
+ D1 2
+ K1 1
+ C2 2
+ C4 2
+ C1 2
+ C5 2
+ C3 1
+ U1 5
+ U1 9
+ C6 2
+ C7 2
+ U1 20
+ U1 11
+ U1 17
 Net 25 "/EN" "EN"
- U3 3
- K1 3
+ P2 4
  U2 3
- P2 1
+ K1 3
+ U3 3
 Net 26 "" ""
- D1 1
- R2 2
+ K1 2
+ U4 1
 }
 #End
