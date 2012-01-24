@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date lun 23 ene 2012 18:54:16 ART
+EESchema Schematic File Version 2  date mar 24 ene 2012 14:52:06 ART
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "23 jan 2012"
+Date "24 jan 2012"
 Rev "2.1"
 Comp ""
 Comment1 ""
@@ -47,6 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 5750 5800 0    100  ~ 0
+Ambos pines de VCC deben ser conectados a 3.3V en la aplicación.
 Wire Wire Line
 	3600 4250 3150 4250
 Wire Wire Line
