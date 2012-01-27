@@ -1,4 +1,4 @@
-update=vie 27 ene 2012 17:30:10 ART
+update=vie 27 ene 2012 19:41:58 ART
 version=1
 last_client=pcbnew
 [general]
@@ -89,7 +89,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=toshicam.net
+LastNetListRead=
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -103,7 +103,3 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=/home/drizzt/facultad/C.Robotica/proyectos/camarainalambrica/toshicam breakout/pcb/toshicam_v2.1/library/kyocera_oscillator
-LibName12=/home/drizzt/facultad/C.Robotica/proyectos/camarainalambrica/toshicam breakout/pcb/toshicam_v2.1/library/pin_smd
-LibName13=/home/drizzt/facultad/C.Robotica/proyectos/camarainalambrica/toshicam breakout/pcb/toshicam_v2.1/library/sot23-5-alt
-LibName14=/home/drizzt/facultad/C.Robotica/proyectos/camarainalambrica/toshicam breakout/pcb/toshicam_v2.1/library/tcm8240
-LibName15=library/cap_pol

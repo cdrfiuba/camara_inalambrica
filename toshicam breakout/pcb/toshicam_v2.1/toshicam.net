@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  vie 27 ene 2012 17:28:39 ART
+# EESchema Netlist Version 1.1 created  vie 27 ene 2012 18:32:23 ART
 (
  ( /4D4240F9 SM1206 C1 0.1uF
   ( 1 /2.8V )
@@ -36,12 +36,12 @@
   ( 1 N-000019 )
   ( 2 GND )
  )
- ( /4F19EB0C PIN_SMD_3x1 K1 CONN_3
+ ( /4F19EB0C PIN_ARRAY_3X1 K1 CONN_3
   ( 1 GND )
   ( 2 N-000026 )
   ( 3 /EN )
  )
- ( /4F19EF1A PIN_SMD_2x1 K2 CONN_2
+ ( /4F19EF1A PIN_ARRAY_2X1 K2 CONN_2
   ( 1 /CLK )
   ( 2 N-000018 )
  )
