@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = vie 20 ene 2012 21:31:48 ART
+Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = vie 27 ene 2012 17:28:39 ART
 
 BeginCmp
 TimeStamp = /4D4240F9;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4D4242E8;
 Reference = C4;
 ValeurCmp = 10uF;
-IdModule  = SM1812L;
+IdModule  = CAPOL_SMD;
 EndCmp
 
 BeginCmp
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /4D425964;
 Reference = C7;
 ValeurCmp = 10uF;
-IdModule  = SM1812L;
+IdModule  = CAPOL_SMD;
 EndCmp
 
 BeginCmp
